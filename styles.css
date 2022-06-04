@@ -1,0 +1,76 @@
+body{
+    background-color: aqua;
+    color: #ECDBBA;
+}
+h1{
+    font-weight: 600;
+}
+.container-fluid{
+    background-color: chartreuse;
+    position: absolute;
+    height: 100%;
+}
+.row{
+    height: 100%;
+}
+.table-of-contents{
+    background-color: #d89c48;
+    display: grid;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+.main-content{
+    background-color: #064663;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px 0 50px;
+}
+.bullet-point{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #c7b89b;
+    position: relative;
+    z-index: 1000;
+    margin: auto;
+}
+.bullet-point::before{
+    background-color: #ead7af;
+    width: 90%;
+    height: 90%;
+    border: #064663 solid 4px;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.bullet-point:hover{
+    width: 50px;
+    height: 50px;
+}
+
+.line{
+    width: 7px;
+    height: 100%;
+    background-color: #ead7af;
+    justify-self: center;
+    position: absolute;
+    top: 0px;
+}
+.image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: brown;
+    grid-area: 1/1/2/2;
+    background-image: url(./Assets/elon_musk.jpg);
+    background-position-x: 50%; 
+
+}
+.details{
+    grid-area: 1/2/2/3;
+    padding-left: 40px;
+}
