@@ -1,10 +1,20 @@
 body{
     background-color: aqua;
     color: #ECDBBA;
+    font-family: 'Oswald', sans-serif;
 }
 h1{
     font-weight: 600;
 }
+h3{
+    margin-right: auto;
+    left: 50px;
+    bottom: 2px;
+    text-align: center;
+    position: relative;
+
+}
+
 .container-fluid{
     background-color: chartreuse;
     position: absolute;
@@ -48,6 +58,8 @@ h1{
 .bullet-point:hover{
     width: 50px;
     height: 50px;
+    transform: translate(0,-5%);
+    padding-top: 3px;
 }
 
 .line{
@@ -78,12 +90,8 @@ h1{
 }
 
 @media(max-width: 991px){
-    h1{
-        font-size: 4rem;
-    }
-    p{
-        font-size: 2.2rem;
-    }
+
+
     .image-container{
         margin-top: auto;
     }
@@ -101,10 +109,6 @@ h1{
         width: 200px;
         height: 200px;
     }
-    h1{
-        font-size: 2rem;
-    }
-    p{
-        font-size: 1rem;
-    }
+
+
 }
