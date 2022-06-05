@@ -79,14 +79,13 @@ h3{
     height: 300px;
     border-radius: 50%;
     background-color: brown;
-    grid-area: 1/1/2/2;
     background-image: url(./Assets/elon_musk.jpg);
     background-position-x: 50%; 
 
 }
 .details{
-    grid-area: 1/2/2/3;
     padding-left: 40px;
+    min-height: 200px;
 }
 
 @media(max-width: 991px){

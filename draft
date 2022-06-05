@@ -1,0 +1,13 @@
+<div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam tenetur, veritatis fugit laborum amet sunt nisi culpa dolore qui pariatur soluta quod, odio temporibus fugiat, voluptatem necessitatibus consectetur nihil vel!</p>
+                          </div>
+                          <div class="carousel-item">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. tempora voluptates iste necessitatibus ipsam, ex, cumque deleniti earum? Veniam, deleniti?</p>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt=".ff..">
+                          </div>
+                        </div>
+                      </div>
