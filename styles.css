@@ -22,10 +22,8 @@ h1{
 }
 .main-content{
     background-color: #064663;
-    display: grid;
-    justify-content: center;
-    align-items: center;
     padding: 0 50px 0 50px;
+    margin: 0px;
 }
 .bullet-point{
     width: 40px;
@@ -44,8 +42,8 @@ h1{
     border-radius: 50%;
     content: "";
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 6%;
+    left: 6%;
 }
 .bullet-point:hover{
     width: 50px;
@@ -60,9 +58,13 @@ h1{
     position: absolute;
     top: 0px;
 }
+.image-container{
+    display: grid;
+    justify-content: center;
+}
 .image{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     background-color: brown;
     grid-area: 1/1/2/2;
@@ -73,4 +75,36 @@ h1{
 .details{
     grid-area: 1/2/2/3;
     padding-left: 40px;
+}
+
+@media(max-width: 991px){
+    h1{
+        font-size: 4rem;
+    }
+    p{
+        font-size: 2.2rem;
+    }
+    .image-container{
+        margin-top: auto;
+    }
+    .details{
+        margin-bottom: auto;
+        margin-top: 20%;
+    }
+    .bullet-point{
+        width: 80px;
+        height: 80px;
+    }
+}
+@media(max-width:370px){
+    .image{
+        width: 200px;
+        height: 200px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
 }
